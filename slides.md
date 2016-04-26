@@ -1,11 +1,11 @@
-% title: Title of my presentation
-% subtitle: And a subtitle
-% author: Firstname Lastname
-% author: Other info to put on the author line
-% thankyou: Thanks everyone!
+% title: Flæg
+% subtitle: Une librairie Go pour créer une interface en ligne de commande
+% author: Martin Piegay
+% author: Journée Team Building
+% thankyou: Thanks you!
 % thankyou_details: And especially these people:
-% contact: <span>www</span> <a href="http://www.google.edu/">website</a>
-% contact: <span>github</span> <a href="http://github.com">username</a>
+% contact: <a href="https://twitter.com/">@Martouf42</a>
+% contact: <span>github</span> <a href="http://github.com">cocap10</a>
 % favicon: http://www.stanford.edu/favicon.ico
 
 ---
