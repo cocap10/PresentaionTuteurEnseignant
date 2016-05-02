@@ -27,7 +27,6 @@ Siège social de l’entreprise à Paris
 
 Agences : Lyon, Rennes, Nantes, Lille et Bordeaux
 
- 
 ---
 title: Emile Vauge
 
