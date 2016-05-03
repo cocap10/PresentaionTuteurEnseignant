@@ -16,6 +16,15 @@ title: /WhoamI : Martin Piegay
  
  En stage à l'agence Lyonnaise de Zenika depuis Mars 
  
+ Formation info & réseau
+ 
+ J'ai passé les 6 derniers mois en Erasmus à Prague <img src=figures/beer.icon.png />
+
+---
+title: Flæg : Build CLI & Load Configuration
+class: img-top-center
+
+<img src=figures/flaeg.logo.png />
 ---
 title: Zenika
 
@@ -49,11 +58,13 @@ Permet à un utilisateur d'Internet d'accéder à des serveurs internes :
 
 ---
 title: Architecture Microservices 
+
 class: img-top-center
 
 <img height=500 src=figures/traditionnalArchitecture.png />
 ---
 title: Træfik
+
 class: img-top-center
 
 <img height=500 src=figures/traefikArchitecture.svg />
