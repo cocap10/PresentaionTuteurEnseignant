@@ -13,7 +13,7 @@ URL: https://code.google.com/p/io-2012-slides
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Flæg</title>
+  <title> Présentation tuteur enseignant</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
@@ -21,7 +21,7 @@ URL: https://code.google.com/p/io-2012-slides
   <!--This one seems to work all the time, but really small on ipad-->
   <!--<meta name="viewport" content="initial-scale=0.4">-->
   <meta name="apple-mobile-web-app-capable" content="yes">
-   <link rel="shortcut icon" href=" http://www.stanford.edu/favicon.ico"/> 
+   <link rel="shortcut icon" href=" figures/golang.icon.png"/> 
   <link rel="stylesheet" media="all" href="theme/css/default.css">
   <link rel="stylesheet" media="all" href="theme/css/custom.css">
   <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
@@ -63,9 +63,9 @@ URL: https://code.google.com/p/io-2012-slides
 <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
 
-    <h1> Flæg</h1>
-    <h2> Une librairie Go pour créer une interface en ligne de commande</h2>
-    <p> Martin Piegay<br/> Journée Team Building</p>
+    <h1> Présentation tuteur enseignant</h1>
+    <h2> Stage de fin d'étude</h2>
+    <p> Martin Piegay</p>
   </hgroup>
 </slide>
 
@@ -73,70 +73,226 @@ URL: https://code.google.com/p/io-2012-slides
 <slide  >
   
     <hgroup>
-      <h2>Intro slide</h2>
+      <h2>/WhoamI : Martin Piegay</h2>
       <h3></h3>
     </hgroup>
-    <article ><p>Here is a list that should build:</p>
-<ul class="build">
-<li>I like formulas, like this one <mathjax>$e=mc^2$</mathjax></li>
-<li>It's rendered using MathJax. You can change the settings by editing base.html if you like</li>
-<li>pressing 'f' toggle fullscreen</li>
-<li>pressing 'w' toggles widescreen</li>
-<li>'o' toggles overview mode</li>
-</ul></article>
+    <article ><p><img src=figures/telecom.jpg /> </p>
+<p>FI3 en parcours 9 :</p>
+<ul>
+<li>Informatique et réseau</li>
+</ul>
+<p>En stage à l'agence Lyonnaise de Zenika depuis Mars </p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Zenika</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p><img src=figures/zenika.png /></p>
+<p>Cabinet de conseil, réalisation, formation informatique spécialisé dans l'Open Source et l'agilité. </p>
+<p>Siège social de l’entreprise à Paris </p>
+<p>Agences : Lyon, Rennes, Nantes, Lille et Bordeaux</p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Emile Vauge</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p>Emile est un ancien Consultant &amp; Formateur Zenika <img src=figures/zenika.icon.jpg /></p>
+<p>Il est certifié Docker formateur <img src=figures/docker.icon.png /></p>
+<p>Depuis Septembre 2015 il développe le Reverse-proxy/Load-balancer Traefik en Go</p>
+<p>En Février 2016, il a quitté Zenika pour monter la zStartup <a href="https://containo.us/">Containous</a> <img src=figures/containous.icon.png /></p>
+<p>Il se consacre exclusivement au développement de  <a href="https://traefik.io/">Træfik</a> <img src=figures/traefik.icon.png /></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Reverse-proxy</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p>Permet à un utilisateur d'Internet d'accéder à des serveurs internes :</p>
+<p><img src=figures/Reverse_proxy.png /></p></article>
  
 </slide>
 
 <slide class="img-top-center" >
   
     <hgroup>
-      <h2>Slide with a figure</h2>
-      <h3>Subtitles are cool too</h3>
+      <h2>Architecture Microservices</h2>
+      <h3></h3>
     </hgroup>
-    <article ><p><img height=150 src=figures/200px-6n-graf.svg.png /></p>
-<ul>
-<li>Some point to make about about this figure from wikipedia</li>
-<li>This slide has a class that was defined in theme/css/custom.css</li>
-</ul>
-<footer class="source"> Always cite your sources! </footer></article>
+    <article ><p><img height=500 src=figures/traditionnalArchitecture.png /></p></article>
  
 </slide>
 
-<slide class="segue dark nobackground" >
+<slide class="img-top-center" >
   
-    <!-- <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside> -->
-    <hgroup class="auto-fadein">
-      <h2>Segue slide</h2>
-      <h3>I can haz subtitlz?</h3>
+    <hgroup>
+      <h2>Træfik</h2>
+      <h3></h3>
     </hgroup>
-  
+    <article ><p><img height=500 src=figures/traefikArchitecture.svg /></p></article>
+ 
 </slide>
 
 <slide  >
   
     <hgroup>
-      <h2>Maybe some code?</h2>
+      <h2>Go lang</h2>
       <h3></h3>
     </hgroup>
-    <article ><p>press 'h' to highlight an important section (that is highlighted
-with &lt;b&gt;...&lt;/b&gt; tags)</p>
-<pre class="prettyprint" data-lang="javascript">
-function isSmall() {
-  return window.matchMedia("(min-device-width: ???)").matches;
+    <article ><p>Langage open source crée en 2010 par Google</p>
+<p>Syntaxe simple et efficace :</p>
+<pre class="prettyprint" data-lang="go">
+func main(){
+  fmt.Println("Hello, 世界")
 }
+</pre>
 
-<b>function hasTouch() {
-  return Modernizr.touch;
-}</b>
+<p>Compilation de 80 % à 90 % plus rapide que en C</p>
+<p>Tout les dépendances sont intégrées dans le binaire</p>
+<p>Février 2016 : Version 1.6</p>
+<p>Août 2016 : Version 1.7</p></article>
+ 
+</slide>
 
-function detectFormFactor() {
-  var device = DESKTOP;
-  if (hasTouch()) {
-    device = isSmall() ? PHONE : TABLET;
-  }
-  return device;
+<slide  >
+  
+    <hgroup>
+      <h2>Structure de configuration : exemple</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><pre class="prettyprint" data-lang="go">
+type Configuration struct {
+    Name     string       
+    LogLevel string 
+    Timeout  time.Duration
+    Db       *DatabaseInfo
+    Owner    *OwnerInfo
 }
+//Sub-structures DatabaseInfo & OwnerInfo are defined below
 </pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Flæg</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p>Une librairie pour le langage <a href="https://golang.org/">Go</a> <img src=figures/golang.icon.png /></p>
+<p>Génère une interface en ligne de commande <img src=figures/cli.icon.png /></p>
+<p>Initialise la structure de configuration avec les arguments</p>
+<p>C'est open source, sur <a href="http://github.com/containous/flaeg">github</a> :)</p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Flæg : exemple</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><pre class="prettyprint" data-lang="go">
+//Configuration is a struct which contains all differents type to field
+//using parsers on string, time.Duration, pointer, bool, int, int64, time.Time, float64
+type Configuration struct {
+    Name     string        //no description struct tag, it will not be flaged
+    LogLevel string        `short:"l" description:"Log level"`
+    Timeout  time.Duration `description:"Timeout duration"`
+    Db       *DatabaseInfo `description:"Enable database"`
+    Owner    *OwnerInfo    `description:"Enable Owner description"`
+}
+//Sub-structures DatabaseInfo & OwnerInfo are defined below
+</pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Flæg : exemple suite</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><pre class="prettyprint" data-lang="shell">
+$ flaegdemo -h
+flaegdemo is a golang programme....(here the programme description)
+
+Usage: flaegdemo [--flag=flag_argument] [-f[flag_argument]] ...     set flag_argument
+   or: flaegdemo [--flag[=true|false| ]] [-f[true|false| ]] ...   
+
+Flags:
+    --db                      Enable database (default "false")
+    --db.comax                Number max of connections on database (default "3200000000")
+    --db.connectionmax64      Number max of connections on database (default "6400000000000000000")
+    --db.ip                   Server ip address (default "192.168.1.2")
+    --db.load                 Server load (default "32")
+    --db.load64               Server load (default "64")
+    --db.watch                Watch device (default "true")
+    -l, --loglevel            Log level (default "DEBUG")
+    --owner                   Enable Owner description (default "true")
+    --owner.dob               Owner date of birth (default "1993-09-12 07:32:00 +0000 UTC")
+    --owner.name              Owner name (default "true")
+    --owner.rate              Owner rate (default "0.999")
+    --owner.servers           Owner Server (default "[]")
+    --timeout                 Timeout duration (default "1s")
+    -h, -help                 Print Help (this message) and exit
+</pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Stært</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p>Une autre librairie pour le langage <a href="https://golang.org/">Go</a> <img src=figures/golang.icon.png /></p>
+<p>Permet de fusionner les sources de configuration</p>
+<p>Pour l’instant deux sources : 
+Fleag 
+Fichier de configuration (TOML)
+En développement : 
+Des bases de donnés Key-Value </p></article>
+ 
+</slide>
+
+<slide class="img-top-center" >
+  
+    <hgroup>
+      <h2>Træfik avant</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p><img height=500 src=figures/traefikOldCli.png /></p></article>
+ 
+</slide>
+
+<slide class="img-top-center" >
+  
+    <hgroup>
+      <h2>Utilisation Stært & Flæg dans Træfik</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p><a href="https://github.com/containous/traefik/blob/master/configuration.go"><img height=500 src=figures/traefikFlaegCli.png /></a></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Démo</h2>
+      <h3></h3>
+    </hgroup>
+    <article ></article>
  
 </slide>
 
@@ -144,8 +300,8 @@ function detectFormFactor() {
 <slide class="thank-you-slide segue nobackground">
   <!-- <aside class="gdbar right"><img src="images/google_developers_icon_128.png"></aside> -->
   <article class="flexbox vleft auto-fadein">
-    <h2> Thanks you!</h2>
-    <p> And especially these people:</p>
+    <h2> Merci !</h2>
+    <p></p>
   </article>
   <p data-config-contact class="auto-fadein"> <a href="https://twitter.com/">@Martouf42</a><br/> <span>github</span> <a href="http://github.com">cocap10</a></p>
   </p>
