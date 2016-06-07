@@ -15,16 +15,7 @@ title: /WhoamI : Martin Piegay
   - Informatique et réseau
  
  En stage à l'agence Lyonnaise de Zenika depuis Mars 
- 
- Formation info & réseau
- 
- J'ai passé les 6 derniers mois en Erasmus à Prague <img src=figures/beer.icon.png />
 
----
-title: Flæg : Build CLI & Load Configuration
-class: img-top-center
-
-<img src=figures/flaeg.logo.png />
 ---
 title: Zenika
 
@@ -41,8 +32,6 @@ title: Emile Vauge
 
 Emile est un ancien Consultant & Formateur Zenika <img src=figures/zenika.icon.jpg />
 
-Il est certifié Docker formateur <img src=figures/docker.icon.png />
-
 Depuis Septembre 2015 il développe le Reverse-proxy/Load-balancer Traefik en Go
 
 En Février 2016, il a quitté Zenika pour monter la zStartup <a href="https://containo.us/">Containous</a> <img src=figures/containous.icon.png />
@@ -58,13 +47,11 @@ Permet à un utilisateur d'Internet d'accéder à des serveurs internes :
 
 ---
 title: Architecture Microservices 
-
 class: img-top-center
 
 <img height=500 src=figures/traditionnalArchitecture.png />
 ---
 title: Træfik
-
 class: img-top-center
 
 <img height=500 src=figures/traefikArchitecture.svg />
@@ -164,10 +151,13 @@ Une autre librairie pour le langage <a href="https://golang.org/">Go</a> <img sr
 Permet de fusionner les sources de configuration
 
 Pour l’instant deux sources : 
-Fleag 
-Fichier de configuration (TOML)
+
+ - Fleag 
+ - Fichier de configuration (TOML)
+
 En développement : 
-Des bases de donnés Key-Value 
+
+ - Des bases de donnés Key-Value 
 ---
 title: Træfik avant
 class: img-top-center
@@ -181,3 +171,7 @@ class: img-top-center
 
 ---
 title: Démo
+class: img-top-center
+
+<img height=500 src=figures/demo.jpg />
+---
