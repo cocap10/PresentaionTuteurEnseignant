@@ -39,12 +39,11 @@ En Février 2016, il a quitté Zenika pour monter la zStartup <a href="https://c
 Il se consacre exclusivement au développement de  <a href="https://traefik.io/">Træfik</a> <img src=figures/traefik.icon.png />
 
 ---
-title: Reverse-proxy 
+title: Reverse proxy 
 
 Permet à un utilisateur d'Internet d'accéder à des serveurs internes :
 
 <img src=figures/Reverse_proxy.png />
-
 ---
 title: Architecture Microservices 
 class: img-top-center
@@ -55,6 +54,12 @@ title: Træfik
 class: img-top-center
 
 <img height=500 src=figures/traefikArchitecture.svg />
+---
+title: Load balancer 
+class: img-top-center
+
+<img height=500 src=figures/Load_balancer.jpg />
+
 ---
 title: Go lang
 
